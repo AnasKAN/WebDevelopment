@@ -7,44 +7,46 @@
     <title>تسجيل حساب</title>
     <link rel="stylesheet" href="./style.css" />
     <script defer src="./main.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 <br>
 
 <body>
 
 
-    <h1>أهلا فيك في المتجر اكمل البيانات التالية </h1>
     <div class="container">
-
-        <form id="form" action="/home/html/home_page.html">
+        <dotlottie-player src="https://lottie.host/f5e890b9-0944-40ac-ab3f-6927ec7b3f3f/ztnUj8950P.json" background="transparent" speed="1" style=" height: 350px;" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+        <h1>أهلا فيك في المتجر اكمل البيانات التالية </h1>
+        <form id="form" action="/home/html/about_us.html">
             <h1>تسجيل حساب جديد</h1>
-
             <div class="input-control">
-                <label for="username" style="color:rgb(2, 204, 255);">اسم المستخدم</label>
+                <label for="username" >اسم المستخدم</label>
                 <input id="username" name="اسم المستخدم" type="text" required>
                 <div class="error"></div>
             </div>
-
             <div class="input-control">
-                <label for="email" style="color:rgb(2, 204, 255);"> ايميل</label>
+                <label for="email" > ايميل</label>
                 <input id="email" name="ايميل" type="text" required>
                 <div class="error"></div>
             </div>
 
             <div class="input-control">
-                <label for="password" style="color:rgb(2, 204, 255);"> كلمة السر</label>
+                <label for="password" > كلمة السر</label>
                 <input id="password" name="كلمة السر" type="password" required>
                 <div class="error"></div>
             </div>
-
             <div class="input-control">
-                <label for="password" style="color:rgb(2, 204, 255);">تاكيد كلمة السر</label>
+                <label for="password" >تاكيد كلمة السر</label>
                 <input id="password2" name=" تاكيد كلمة السر" type="password" required>
                 <div class="error"></div>
             </div>
             <button type="submit">تسجيل الحساب</button>
         </form>
     </div>
+    <br><br><br><br><br><br>
+    
+    <footer><p></p></footer>
+    <div>جميع الحقوق محفوظة للمطور لعام 2024</div>
 </body>
 
 </html>

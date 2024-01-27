@@ -1,56 +1,19 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-color: #FAACA8;
-    background-image: linear-gradient(90deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(87, 108, 117, 1) 0%, rgba(37, 50, 55, 1) 100.2%);
     font-size: 25px;
     text-align: center;
-    color: #5c5c5d;
+    color: #E5E5BE ;
 
-}
-
-img {
-    height: 50px;
-    opacity: 0.5;
-}
-
-
-#navBar {
-    text-align: center;
-    background: linear-gradient(#ffdee9 0%, #b5fffc 100%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    height: 5rem;
-    font-size: 28px;
-    font-style: italic;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-
-}
-
-#navBar a {
-    text-decoration: none;
-    color: #5c5c5d;
-    margin: 0 10px;
-}
-
-#navBar a:last-child {
-    color: #d41996;
 }
 
 
 form {
     width: 300px;
-    margin: 20vh auto 0 auto;
+    margin: 5vh auto 0 auto;
     padding: 55px;
     background: rgb(255, 222, 233);
-    background: linear-gradient(90deg, #ffdee9 0%, #b5fffc 100%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(87, 108, 117, 1) 0%, rgba(37, 50, 55, 1) 100.2%);
     border-radius: 4px;
     font-size: 12px;
     text-align: right;
@@ -59,7 +22,7 @@ form {
 }
 
 #form h1 {
-    color: rgb(252, 165, 165);
+    color: #E5E5BE ;
     text-align: center;
 
 
@@ -67,11 +30,12 @@ form {
 
 
 #form button {
+    
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
     color: white;
-    background-image: linear-gradient(to right, #efafcc 0%, #89fffd 51%, #ffbed3 100%);
+    background-image: linear-gradient(to right, #003973 0%, #E5E5BE 51%, #003973 100%);
     margin: 10px;
     transition: 0.5s;
     background-size: 200% auto;
@@ -129,6 +93,5 @@ form {
 }
 
 h1 {
-    opacity: 0.6;
-
+color: #f0f0f0;
 }
