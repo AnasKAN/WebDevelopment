@@ -1,0 +1,51 @@
+.input-control {
+  margin-bottom: 20px; /* Increase space between input fields */
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='date'],
+select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Add some padding inside the input field */
+  margin: 5px 0 22px 0; /* Add some space around the input */
+  display: inline-block; /* Ensure the input is block-level to fill the width of its container */
+  border: 1px solid #ccc; /* Add a border to the input */
+  border-radius: 4px; /* Add rounded corners to the input */
+}
+
+button {
+  background-color: #04aa6d; /* Green background */
+  color: white; /* White text */
+  padding: 14px 20px; /* Add some padding */
+  margin: 8px 0; /* Add some margin above the button */
+  border: none; /* No border */
+  cursor: pointer; /* Change mouse cursor on hover */
+  width: 100%; /* Full width */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
+
+form {
+  max-width: 500px; /* Set a max-width for the form */
+  margin: auto; /* Center the form on the page */
+  padding: 20px; /* Add padding around the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow around the form */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark grey color for the text */
+}
+.sign-out-btn {
+  background-color: #d9534f; /* Bootstrap's btn-danger color */
+  color: white;
+}
+
+.sign-out-btn:hover {
+  background-color: #c9302c; /* Darker shade */
+}
