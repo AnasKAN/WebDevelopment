@@ -54,7 +54,7 @@ const products = [
         price: 799,
       },
       {
-        image: 'hhttps://www.jarir.com/cdn-cgi/image/fit=contain,width=auto,height=auto,quality=85,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/559450.jpg',
+        image: 'https://m.media-amazon.com/images/I/61IlSXOb9EL._AC_SX679_.jpg',
         name: 'AirPods Max',
         price: 2599,
       },
@@ -177,7 +177,7 @@ const discountProducts = [
         price: 599,
       },
       {
-        image: 'hhttps://www.jarir.com/cdn-cgi/image/fit=contain,width=auto,height=auto,quality=85,metadata=none/https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/559450.jpg',
+        image: 'https://m.media-amazon.com/images/I/61IlSXOb9EL._AC_SX679_.jpg',
         name: 'AirPods Max',
         price: 2299,
       },
