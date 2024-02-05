@@ -39,7 +39,7 @@ form {
 
 h1 {
   text-align: center; /* Center the heading */
-  color: #333; /* Dark grey color for the text */
+  color: white; /* Dark grey color for the text */
 }
 .sign-out-btn {
   background-color: #d9534f; /* Bootstrap's btn-danger color */

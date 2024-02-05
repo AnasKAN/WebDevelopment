@@ -57,3 +57,15 @@ header #navBar a:hover,
 header #navBar a:active {
     color: #4e19d4;
 }
+h1 {
+    font-size: 4rem;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    color: #fffefd;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.878);
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #003973 0%, #E5E5BE 51%, #003973 100%);
+
+}

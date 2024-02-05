@@ -66,6 +66,7 @@ h1 {
     padding-bottom: 50px;
     padding-left: 80px;
     color: #fffefd;
+    text-align: center;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.878);
     border-radius: 15px;
     background-image: linear-gradient(to right, #003973 0%, #E5E5BE 51%, #003973 100%);

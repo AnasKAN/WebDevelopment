@@ -3,8 +3,7 @@ const products = [
     section: undefined,
     items: [
       {
-        image:
-          'https://www.apple.com/v/iphone-15/c/images/overview/contrast/iphone_15pro__ezc4eofw13yq_large_2x.jpg',
+        image: 'https://www.apple.com/v/iphone-15/c/images/overview/contrast/iphone_15pro__ezc4eofw13yq_large_2x.jpg',
         name: 'Iphone 15 Pro Max - 256G',
         price: 5499,
       },
