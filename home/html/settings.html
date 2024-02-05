@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>الاعدادات</title>
-    <link rel="stylesheet" href="../style/header.css" />
-    <link rel="stylesheet" href="../style/settings.css" />
-    <script src="../javascript/setteings.js" defer></script>
-  </head>
 
-  <body>
-    <header>
-      <nav id="navBar">
-        <img src="/WebDevelopment/assets/robot.png" alt="شعار المتجر" />
-        <a href="/html/settings.html">الاعدادات</a>
-        <a href="/html/display_items.html">عرض المنتجات</a>
-        <a href="/html/sale.html">تخفيضات</a>
-        <a href="/html/about_us.html">عن المتجر</a>
-      </nav>
-    </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <form id="form" action="/auth/design.html" onsubmit="return saveData();">
-      <h1>تسجيل حساب جديد</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الاعدادات</title>
+  <link rel="stylesheet" href="../style/header.css" />
+  <link rel="stylesheet" href="../style/settings.css" />
+  <script src="../javascript/setteings.js" defer></script>
+</head>
 
-      <div class="input-control">
-        <label for="name" style="color: rgb(2, 204, 255)">الاسم الكامل</label>
-        <input id="name" name="الاسم الكامل" type="text" required />
-      </div>
+<body>
+  <header>
+    <nav id="navBar">
+      <img src="../html/robot.png" alt="شعار المتجر" />
+      <a href="../html/settings.html">الاعدادات</a>
+      <a href="../html/display_items.html">عرض المنتجات</a>
+      <a href="../html/sale.html">تخفيضات</a>
+      <a href="../html/about_us.html">عن المتجر</a>
+    </nav>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  <form id="form" action="/auth/design.html" >
+    <h1>تسجيل بيانات اضافية</h1>
 
-      <div class="input-control">
-        <label for="phone" style="color: rgb(2, 204, 255)">رقم الهاتف</label>
-        <input id="phone" name="رقم الهاتف" type="tel" required />
-      </div>
+    <div class="input-control">
+      <label for="name">الاسم الكامل</label>
+      <input id="name" name="الاسم الكامل" type="text" required />
+    </div>
 
-      <div class="input-control">
-        <label for="gender" style="color: rgb(2, 204, 255)">الجنس</label>
-        <select id="gender" name="الجنس" required>
-          <option value="">اختر...</option>
-          <option value="male">ذكر</option>
-          <option value="female">أنثى</option>
-        </select>
-      </div>
+    <div class="input-control">
+      <label for="phone">رقم الهاتف</label>
+      <input id="phone" name="رقم الهاتف" type="tel" required />
+    </div>
 
-      <div class="input-control">
-        <label for="dob" style="color: rgb(2, 204, 255)">تاريخ الميلاد</label>
-        <input id="dob" name="تاريخ الميلاد" type="date" required />
-      </div>
 
-      <button type="button" onclick="saveData()">حفظ البيانات</button>
-      <div style="text-align: center; margin-top: 20px">
-        <button
-          class="sign-out-btn"
-          type="button"
-          onclick="window.location.href='../auth/design.html'"
-        >
-          تسجيل الخروج
-        </button>
-      </div>
-    </form>
-  </body>
+
+    <div class="input-control">
+      <label for="dob">تاريخ الميلاد</label>
+      <input id="dob" name="تاريخ الميلاد" type="date" required />
+    </div>
+
+
+    <div class="input-control">
+      <label for="gender">الجنس</label>
+      <select id="gender" name="الجنس" required>
+        <option value="">اختر...</option>
+        <option value="male">ذكر</option>
+        <option value="female">أنثى</option>
+      </select>
+    </div>
+
+    <button type="button" onclick="saveData()">حفظ البيانات</button>
+    <div style="text-align: center;">
+      <button class="sign-out-btn" type="button" onsubmit="return saveData(); ">
+        تسجيل الخروج
+      </button>
+    </div>
+  </form>
+</body>
+
 </html>

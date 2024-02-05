@@ -49,3 +49,12 @@ h1 {
 .sign-out-btn:hover {
   background-color: #c9302c; /* Darker shade */
 }
+
+
+.input-control{
+  color: #ffffff;
+  font-size: large;
+  text-align: end;
+  margin: 5px;
+  padding: 5px;
+}
